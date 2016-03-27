@@ -3,7 +3,7 @@
 # Gets all vim plugins and places into appropriate
 # folder and then creates symlink to .vimrc
 
-all: plugins .vimrc
+all: plugins vimrc
 
 plugins: general-plugins python-plugins cpp-plugins
 
@@ -13,7 +13,7 @@ python-plugins: flake8
 
 cpp-plugins: omnicppcomplete
 
-.vimrc:
+vimrc:
 	ln -sf ~/.vim/.vimrc ~/.vimrc
 
 nerdtree:
