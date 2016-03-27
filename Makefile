@@ -46,7 +46,8 @@ flake8:
 
 omnicppcomplete:
 	curl -o omnicppcomplete-0.41.zip http://www.vim.org/scripts/download_script.php?src_id=7722
-	unzip omnicppcomplete-0.41.zip ~/.vim
+	unzip omnicppcomplete-0.41.zip -d ~/.vim
+	rm omnicppcomplete-0.41.zip
 
 clean:
-	rm -rf ~/.vim
+	rm -rf ~/.vim/bundle
