@@ -48,5 +48,9 @@ airline:
 	git clone https://github.com/powerline/fonts.git /tmp/airline-fonts
 	bash /tmp/airline-fonts/install.sh
 
+neovim:
+	ln -s ~/.vim ~/.config/nvim
+	ln -s ~/.vimrc ~/.config/nvim/init.vim
+
 clean:
 	rm -rf ~/.vim/bundle
