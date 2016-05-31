@@ -215,7 +215,7 @@ autocmd VimEnter * wincmd w
 map <leader>n :NERDTreeToggle<CR>
 let NERDTreeShowBookmarks=1
 let NERDTreeShowHidden=1
-let NERDTreeIgnore = ['\.pyc$','\.o$','\.class$','\.swp$']
+let NERDTreeIgnore = ['\.pyc$','\.o$','\.class$','\.swp$', 'tags$']
 
 ""tagbar
 autocmd VimEnter * nested TagbarOpen
