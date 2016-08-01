@@ -57,5 +57,8 @@ neovim:
 	ln -s ~/.vim ~/.config/nvim
 	ln -s ~/.vimrc ~/.config/nvim/init.vim
 
+update:
+	find ~/.vim/bundle -type d -mindepth 1 -maxdepth 1 | xargs -I '{}' git --git-dir='{}'/.git --work-tree='{}' pull origin master
+
 clean:
 	rm -rf ~/.vim/bundle
