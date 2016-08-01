@@ -6,13 +6,15 @@
 
 all: plugins vimrc
 
-plugins: general-plugins python-plugins cpp-plugins
+plugins: general-plugins python-plugins cpp-plugins go-plugins
 
 general-plugins: nerdtree ctrlp tagbar supertab syntastic fugitive airline
 
 python-plugins: flake8
 
 cpp-plugins: omnicppcomplete
+
+go-plugins: vim-go
 
 vimrc:
 	ln -sf ~/.vim/.vimrc ~/.vimrc
@@ -37,6 +39,9 @@ fugitive:
 
 flake8:
 	git clone https://github.com/nvie/vim-flake8.git ~/.vim/bundle/vim-flake8
+
+vim-go:
+	git clone https://github.com/fatih/vim-go.git ~/.vim/bundle/vim-go
 
 omnicppcomplete:
 	curl -o omnicppcomplete-0.41.zip http://www.vim.org/scripts/download_script.php?src_id=7722
