@@ -1,0 +1,24 @@
+[submodule "/home/fred/.vim/bundle/nerdtree"]
+	path = /home/fred/.vim/bundle/nerdtree
+	url = https://github.com/scrooloose/nerdtree.git
+[submodule "/home/fred/.vim/bundle/ctrlp.vim"]
+	path = /home/fred/.vim/bundle/ctrlp.vim
+	url = https://github.com/ctrlpvim/ctrlp.vim.git
+[submodule "/home/fred/.vim/bundle/tagbar"]
+	path = /home/fred/.vim/bundle/tagbar
+	url = https://github.com/majutsushi/tagbar.git
+[submodule "/home/fred/.vim/bundle/supertab"]
+	path = /home/fred/.vim/bundle/supertab
+	url = https://github.com/ervandew/supertab.git
+[submodule "/home/fred/.vim/bundle/syntastic"]
+	path = /home/fred/.vim/bundle/syntastic
+	url = https://github.com/scrooloose/syntastic.git
+[submodule "/home/fred/.vim/bundle/vim-fugitive"]
+	path = /home/fred/.vim/bundle/vim-fugitive
+	url = https://github.com/tpope/vim-fugitive.git
+[submodule "/home/fred/.vim/bundle/vim-flake8"]
+	path = /home/fred/.vim/bundle/vim-flake8
+	url = https://github.com/nvie/vim-flake8.git
+[submodule "/home/fred/.vim/bundle/vim-go"]
+	path = /home/fred/.vim/bundle/vim-go
+	url = https://github.com/fatih/vim-go.git
