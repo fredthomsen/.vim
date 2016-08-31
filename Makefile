@@ -19,28 +19,28 @@ vimrc:
 	ln -sf ~/.vim/.vimrc ~/.vimrc
 
 nerdtree:
-	git clone https://github.com/scrooloose/nerdtree.git ~/.vim/bundle/nerdtree
+	git submodule add https://github.com/scrooloose/nerdtree.git ~/.vim/bundle/nerdtree
 
 ctrlp:
-	git clone https://github.com/ctrlpvim/ctrlp.vim.git ~/.vim/bundle/ctrlp.vim
+	git submodule add https://github.com/ctrlpvim/ctrlp.vim.git ~/.vim/bundle/ctrlp.vim
 
 tagbar:
-	git clone https://github.com/majutsushi/tagbar.git ~/.vim/bundle/tagbar
+	git submodule add https://github.com/majutsushi/tagbar.git ~/.vim/bundle/tagbar
 
 supertab:
-	git clone https://github.com/ervandew/supertab.git ~/.vim/bundle/supertab
+	git submodule add https://github.com/ervandew/supertab.git ~/.vim/bundle/supertab
 
 syntastic:
-	git clone https://github.com/scrooloose/syntastic.git ~/.vim/bundle/syntastic
+	git submodule add https://github.com/scrooloose/syntastic.git ~/.vim/bundle/syntastic
 
 fugitive:
-	git clone https://github.com/tpope/vim-fugitive.git ~/.vim/bundle/vim-fugitive
+	git submodule add https://github.com/tpope/vim-fugitive.git ~/.vim/bundle/vim-fugitive
 
 flake8:
-	git clone https://github.com/nvie/vim-flake8.git ~/.vim/bundle/vim-flake8
+	git submodule add https://github.com/nvie/vim-flake8.git ~/.vim/bundle/vim-flake8
 
 vim-go:
-	git clone https://github.com/fatih/vim-go.git ~/.vim/bundle/vim-go
+	git submodule add https://github.com/fatih/vim-go.git ~/.vim/bundle/vim-go
 
 omnicppcomplete:
 	curl -o omnicppcomplete-0.41.zip http://www.vim.org/scripts/download_script.php?src_id=7722
