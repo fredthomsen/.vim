@@ -2,7 +2,6 @@
 #
 # Gets all vim plugins and places into appropriate
 # folder and then creates symlink to .vimrc
-# TODO: Change to use submodules if possible
 
 all: plugins vimrc
 
@@ -58,7 +57,7 @@ neovim:
 	ln -s ~/.vimrc ~/.config/nvim/init.vim
 
 update:
-	find ~/.vim/bundle -type d -mindepth 1 -maxdepth 1 | xargs -I '{}' git --git-dir='{}'/.git --work-tree='{}' pull origin master
+	git pull --recurse-submodules
 
 clean:
 	rm -rf ~/.vim/bundle
