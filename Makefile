@@ -48,8 +48,8 @@ omnicppcomplete:
 	rm omnicppcomplete-0.41.zip
 
 airline:
-	git clone https://github.com/vim-airline/vim-airline ~/.vim/bundle/vim-airline
-	git clone https://github.com/powerline/fonts.git /tmp/airline-fonts
+	git submodule add https://github.com/vim-airline/vim-airline ~/.vim/bundle/vim-airline
+	git submodule add https://github.com/powerline/fonts.git /tmp/airline-fonts
 	bash /tmp/airline-fonts/install.sh
 
 neovim:

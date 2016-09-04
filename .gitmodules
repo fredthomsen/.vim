@@ -22,3 +22,6 @@
 [submodule "/home/fred/.vim/bundle/vim-go"]
 	path = /home/fred/.vim/bundle/vim-go
 	url = https://github.com/fatih/vim-go.git
+[submodule "/home/fred/.vim/bundle/vim-airline"]
+	path = /home/fred/.vim/bundle/vim-airline
+	url = https://github.com/vim-airline/vim-airline
