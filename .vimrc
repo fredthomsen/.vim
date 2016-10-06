@@ -167,13 +167,9 @@ endif
 set undolevels=1000
 
 ""theme
-if has("gui_running")
-    colorscheme Spink
-else
-    colorscheme molokai
-    let g:molokai_original = 1
-    let g:rehash256 = 1
-endif
+colorscheme molokai
+let g:molokai_original = 1
+let g:rehash256 = 1
 
 """"""""
 "buffers/tabs/windows
