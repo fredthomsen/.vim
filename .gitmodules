@@ -1,27 +1,27 @@
-[submodule "/home/fred/.vim/bundle/nerdtree"]
-	path = /home/fred/.vim/bundle/nerdtree
+[submodule "bundle/nerdtree"]
+	path = bundle/nerdtree
 	url = https://github.com/scrooloose/nerdtree.git
-[submodule "/home/fred/.vim/bundle/ctrlp.vim"]
-	path = /home/fred/.vim/bundle/ctrlp.vim
+[submodule "bundle/ctrlp.vim"]
+	path = bundle/ctrlp.vim
 	url = https://github.com/ctrlpvim/ctrlp.vim.git
-[submodule "/home/fred/.vim/bundle/tagbar"]
-	path = /home/fred/.vim/bundle/tagbar
+[submodule "bundle/tagbar"]
+	path = bundle/tagbar
 	url = https://github.com/majutsushi/tagbar.git
-[submodule "/home/fred/.vim/bundle/supertab"]
-	path = /home/fred/.vim/bundle/supertab
+[submodule "bundle/supertab"]
+	path = bundle/supertab
 	url = https://github.com/ervandew/supertab.git
-[submodule "/home/fred/.vim/bundle/syntastic"]
-	path = /home/fred/.vim/bundle/syntastic
+[submodule "bundle/syntastic"]
+	path = bundle/syntastic
 	url = https://github.com/scrooloose/syntastic.git
-[submodule "/home/fred/.vim/bundle/vim-fugitive"]
-	path = /home/fred/.vim/bundle/vim-fugitive
+[submodule "bundle/vim-fugitive"]
+	path = bundle/vim-fugitive
 	url = https://github.com/tpope/vim-fugitive.git
-[submodule "/home/fred/.vim/bundle/vim-flake8"]
-	path = /home/fred/.vim/bundle/vim-flake8
+[submodule "bundle/vim-flake8"]
+	path = bundle/vim-flake8
 	url = https://github.com/nvie/vim-flake8.git
-[submodule "/home/fred/.vim/bundle/vim-go"]
-	path = /home/fred/.vim/bundle/vim-go
+[submodule "bundle/vim-go"]
+	path = bundle/vim-go
 	url = https://github.com/fatih/vim-go.git
-[submodule "/home/fred/.vim/bundle/vim-airline"]
-	path = /home/fred/.vim/bundle/vim-airline
+[submodule "bundle/vim-airline"]
+	path = bundle/vim-airline
 	url = https://github.com/vim-airline/vim-airline
