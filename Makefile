@@ -3,7 +3,7 @@
 # Gets all vim plugins and places into appropriate
 # folder and then creates symlink to .vimrc
 
-all: plugins vimrc
+all: vimrc update
 
 plugins: general-plugins python-plugins cpp-plugins go-plugins
 
