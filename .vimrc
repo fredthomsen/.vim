@@ -60,6 +60,11 @@ if has("gui_running")
     set guioptions-=r "kill scrollbar
     set guioptions-=l "kill more scrollbar
     set guioptions-=L "kill even more scrollbar
+
+    let s:uname = system("uname")
+        if s:uname == "Darwin\n"
+            set guifont=Liberation\ Mono\ for\ Powerline:h12
+    endif
 endif
 
 set wildmenu "command line compeletion
