@@ -133,6 +133,10 @@ inoremap []     []
 inoremap "      ""<Left>
 inoremap '      ''<Left>
 
+""exit insert mode fast
+inoremap jk <esc>
+inoremap kj <esc>
+
 ""comments
 set comments=sl:/*,mb:\ *,elx:\ */
 
