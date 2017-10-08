@@ -68,7 +68,7 @@ if has("gui_running")
 endif
 
 set wildmenu "command line compeletion
-set wildignore=*.o,*.obj,*.a,*.so,*.dll,*.exe,*.jpg,*.gif,*.png,*.class
+set wildignore=*.o,*.obj,*.a,*.so,*.dll,*.exe,*.jpg,*.gif,*.png,*.class,*~
 
 if has('win32') || has('win64')
     set shell=cmd
@@ -149,7 +149,7 @@ map <C-u> :tnext<CR>
 "down tag stack
 map <C-l> <C-]>
 "up tag stack
-map <C-h> <C-T>
+map <C-h> <C-[>
 
 "regenerate tags
 map <F5> :!ctags -R .<CR> 
