@@ -17,7 +17,7 @@ if has('win32') || has('win64')
     let $HOME="C:/Program Files/Vim"
     let $PATH=$PATH . ";C:/gnuwin32/bin"
 else
-    let $VIMSRC="$VIM/vim74"
+    let $VIMSRC="$VIM/vim80"
 endif
 
 " Pathogen
@@ -68,7 +68,7 @@ if has("gui_running")
 endif
 
 set wildmenu "command line compeletion
-set wildignore=*.o,*.obj,*.a,*.so,*.dll,*.exe,*.jpg,*.gif,*.png,*.class,*~
+set wildignore=*.o,*.obj,*.a,*.so,*.dll,*.exe,*.jpg,*.gif,*.png,*.class,*~,*/tags,*/.tox/*,*.pyc
 
 if has('win32') || has('win64')
     set shell=cmd
@@ -231,10 +231,12 @@ let g:SuperTabDefaultCompletionType = "context"
 
 ""CtrlP
 map <leader>p :CtrlP<CR>
-map <leader>t :CtrlPTag<CR>
+map <leader>i :CtrlPTag<CR>
 map <leader>b :CtrlPBuffer<CR>
 map <leader>f :CtrlPMRUFiles<CR>
 map <leader>m :CtrlPMixed<CR>
+
+let g:ctrlp_working_path_mode = 'ra'
 
 ""syntastic
 let g:syntastic_mode_map = { 'mode': 'active',
