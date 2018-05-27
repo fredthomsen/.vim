@@ -33,8 +33,8 @@ set autoread "auto read changes made outside editor
 set hid "no forcing save between buffer changes
 set autochdir "auto change directory
 
-let mapleader = ","
-let g:mapleader = ","
+let mapleader = " "
+let g:mapleader = " "
 
 map <leader>w :w!<CR> 
 map <leader>e :e .<CR>
