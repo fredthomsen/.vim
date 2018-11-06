@@ -215,8 +215,6 @@ set switchbuf=usetab
 """"""""
 
 ""Nerd-Tree
-autocmd VimEnter * NERDTree
-autocmd BufEnter * NERDTreeMirror
 autocmd VimEnter * wincmd w
 map <leader>n :NERDTreeToggle<CR>
 let NERDTreeShowBookmarks=1
