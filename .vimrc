@@ -61,11 +61,7 @@ if has("gui_running")
     set guioptions-=r "kill scrollbar
     set guioptions-=l "kill more scrollbar
     set guioptions-=L "kill even more scrollbar
-
-    let s:uname = system("uname")
-        if s:uname == "Darwin\n"
-            set guifont=Liberation\ Mono\ for\ Powerline:h12
-    endif
+    set guifont=DejaVuSansMono\ Nerd\ Font\ Mono
 endif
 
 set wildmenu "command line compeletion
@@ -180,6 +176,9 @@ set undolevels=1000
 colorscheme molokai
 let g:molokai_original = 1
 let g:rehash256 = 1
+hi Normal ctermbg=none
+hi NonText ctermbg=none
+hi LineNr ctermbg=none
 
 """"""""
 "buffers/tabs/windows
