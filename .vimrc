@@ -52,6 +52,7 @@ set noerrorbells "annoying as hell
 set backspace=indent,eol,start "backspace for dummys
 set lazyredraw "don't redraw while running macros
 set clipboard=unnamed "share vim and system clipboard
+set updatetime=100 "faster updating
 
 if has("gui_running")
     set lines=999 columns=999 "fullscreen with gvim

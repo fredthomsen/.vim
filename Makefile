@@ -7,7 +7,7 @@ all: vimrc update
 
 plugins: general-plugins python-plugins cpp-plugins go-plugins
 
-general-plugins: nerdtree ctrlp tagbar supertab syntastic fugitive airline
+general-plugins: nerdtree ctrlp tagbar supertab syntastic fugitive airline vim-gitgutter
 
 python-plugins: flake8
 
@@ -41,6 +41,9 @@ flake8:
 
 vim-go:
 	git submodule add https://github.com/fatih/vim-go.git ~/.vim/bundle/vim-go
+
+vim-gitgutter:
+	git submodule add https://github.com/airblade/vim-gitgutter.git ~/.vim/bundle/vim-gitgutter
 
 omnicppcomplete:
 	curl -o omnicppcomplete-0.41.zip http://www.vim.org/scripts/download_script.php?src_id=7722

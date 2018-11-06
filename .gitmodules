@@ -25,3 +25,6 @@
 [submodule "bundle/vim-airline"]
 	path = bundle/vim-airline
 	url = https://github.com/vim-airline/vim-airline
+[submodule "/home/fred/.vim/bundle/vim-gitgutter"]
+	path = /home/fred/.vim/bundle/vim-gitgutter
+	url = https://github.com/airblade/vim-gitgutter.git
