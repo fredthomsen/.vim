@@ -232,7 +232,7 @@ let g:SuperTabDefaultCompletionType = "context"
 
 ""CtrlP
 map <leader>p :CtrlP<CR>
-map <leader>i :CtrlPTag<CR>
+map <leader>t :CtrlPTag<CR>
 map <leader>b :CtrlPBuffer<CR>
 map <leader>f :CtrlPMRUFiles<CR>
 map <leader>m :CtrlPMixed<CR>
