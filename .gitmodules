@@ -28,3 +28,6 @@
 [submodule "/home/fred/.vim/bundle/vim-gitgutter"]
 	path = /home/fred/.vim/bundle/vim-gitgutter
 	url = https://github.com/airblade/vim-gitgutter.git
+[submodule "/home/fred/.vim/bundle/vim-rooter"]
+	path = /home/fred/.vim/bundle/vim-rooter
+	url = https://github.com/airblade/vim-rooter.git
