@@ -37,7 +37,6 @@ let mapleader = " "
 let g:mapleader = " "
 
 map <leader>w :w!<CR> 
-map <leader>e :e .<CR>
 map <leader>q :q<CR>
 map <leader>qa :qall<CR>
 map <F6> :e#<CR>
@@ -233,6 +232,8 @@ map <leader>t :CtrlPTag<CR>
 map <leader>b :CtrlPBuffer<CR>
 map <leader>f :CtrlPMRUFiles<CR>
 map <leader>m :CtrlPMixed<CR>
+map <leader>e :CtrlPCurWD<CR>
+map <leader>l :CtrlPLine<CR>
 
 let g:ctrlp_working_path_mode = 'ra'
 
