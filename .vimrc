@@ -199,6 +199,11 @@ map <C-f> <C-W>l
 map <C-a> <C-W>h
 map <C-d> <C-W>k
 map <C-s> <C-W>j
+map <C-l> <C-W>l
+map <C-h> <C-W>h
+map <C-k> <C-W>k
+map <C-j> <C-W>j
+
 
 ""tabs
 map <leader>tn :tabnew<cr>
